@@ -27,7 +27,7 @@ Add dependencies:
     * Add Card view
 
 Now *right click* on the *app* goto *Module Settings* then go to *Dependencies*
-![Dependency window](https://github.com/palash-kumar/Msg-Share-App/tree/master/md-images/adding-dependencies-1.png "Dependency window")
+![Dependency window](https://github.com/palash-kumar/Android-Kotlin-Globo-Fly-Retrofit-demo/tree/master/md-images/adding-dependencies-1.png "Dependency window")
 
 click on **+** to add new dependency to the project and add the following dependencies:
 **com.android.support:design**
