@@ -184,7 +184,7 @@ Along with this we have completed requesting or fetching data for our applicatio
 #### POST: Create New Resource 
 ##### Sending Data to Web Service
 In This section we will learn to add new data to our database. We will *POST* our data as JSON. 
-![POST as JSON](https://github.com/palash-kumar/Msg-Share-App/tree/master/md-images/Post_as_JSON.png "POST as JSON")
+![POST as JSON](https://github.com/palash-kumar/Msg-Share-App/blob/master/md-images/Post_as_JSON.png "POST as JSON")
 
 In our *server.js* we have a *POST* function * **app.post('/destination', function(req, res)** to add new data to the existing List of Destinations. 
 
@@ -251,7 +251,7 @@ override fun onResume() {
 
 #### PUT: Update / Replace Existing Resource
 In this part we will focus on sending data to the server using **FormUrlEncoded Format**.
-![Form URL Encoded Format](https://github.com/palash-kumar/Msg-Share-App/tree/master/md-images/FormUrlEncodedFormat.png "Form URL Encoded Format")
+![Form URL Encoded Format](https://github.com/palash-kumar/Msg-Share-App/blob/master/md-images/FormUrlEncodedFormat.png "Form URL Encoded Format")
 
 In our *server.js* we have a *PUT* function  **app.put('/destination/:id', function(req, res)** to update data to the existing List of Destinations. 
 ```javascript

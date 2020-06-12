@@ -27,12 +27,11 @@ Add dependencies:
     * Add Card view
 
 Now *right click* on the *app* goto *Module Settings* then go to *Dependencies*
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-![Dependency window](https://github.com/palash-kumar/Msg-Share-App/tree/master/md-images/adding-dependencies-1.png "Dependency window")
+![Dependency window](https://github.com/palash-kumar/Android-Kotlin-Globo-Fly-Retrofit-demo/blob/master/md-images/adding-dependencies-1.png "Dependency window")
 
 click on **+** to add new dependency to the project and add the following dependencies:
 **com.android.support:design**
-![Dependency Support:design](https://github.com/palash-kumar/Msg-Share-App/tree/master/md-images/com.android.support-design.png "Dependency Support:design")
+![Dependency Support:design](https://github.com/palash-kumar/Android-Kotlin-Globo-Fly-Retrofit-demo/blob/master/md-images/com.android.support-design.png "Dependency Support:design")
 
 >NOTE: Dependencies are added to the project can be verified from **Gradle Scripts -> build.gradle** file.
 
@@ -46,7 +45,7 @@ In the Application end we have to complete 3 steps to make *Retrofit* work in co
 2. Service Builder: Next step is to creating a service which will help us to call the functions created in interface **#1**
 3. Activity: As a last step in the activity we have to initialize the service **#2** and than call the functions of the interface **#1**. Eg: destinationService.getDestination().
 
-![Retrofit Flow](https://github.com/palash-kumar/Msg-Share-App/tree/master/md-images/retrofit-flow.png "Retrofit Flow")
+![Retrofit Flow](https://github.com/palash-kumar/Android-Kotlin-Globo-Fly-Retrofit-demo/blob/master/md-images/retrofit-flow.png "Retrofit Flow")
 
 > NOTE: Add the following lines while developing the app at: Android O (--min-api 26)
 
