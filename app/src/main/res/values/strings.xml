@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GloboFly</string>
+    <string name="appbar_scrolling_view_behavior">abb bar scrolling view behavior</string>
+    <string name="buttonSowToast">Show Toast</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<android.support.design.widget.CoordinatorLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fitsSystemWindows="true"
+		tools:context="com.smartherd.globo_fly.activities.DestinationListActivity">
+-->
+
+<android.support.constraint.ConstraintLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:padding="20dp"
+		tools:context="com.smartherd.globo_fly.activities.DestinationListActivity">
+
+	<android.support.design.widget.AppBarLayout
+			android:id="@+id/app_bar"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:theme="@style/AppTheme.AppBarOverlay"
+		tools:ignore="MissingConstraints">
+
+		<android.support.v7.widget.Toolbar
+				android:id="@+id/toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+				app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+		<android.support.v7.widget.RecyclerView
+				android:id="@+id/destiny_recycler_view"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginTop="50dp"
+				app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+				tools:context="com.smartherd.globo_fly.activities.DestinationListActivity"
+				tools:listitem="@layout/list_item"/>
+
+		<android.support.design.widget.FloatingActionButton
+				android:id="@+id/fab"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom|end"
+
+				android:layout_marginBottom="20dp"
+				android:tint="@android:color/white"
+				app:srcCompat="@android:drawable/ic_input_add"
+			tools:ignore="MissingConstraints" />
+
+	</FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
