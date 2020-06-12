@@ -22,29 +22,29 @@ In Android application we will be using Retrofit instead of using raw HTTPUrlCon
 
 
 ##### Con of HTTPUrlConnection
-    1. Poor Readability and les expressive 
-    2. Requires Lots of boilerplate codes eg: Byte arrays, stream readers
-    3. No Built in support of parsing JSON response
-    4. Background threads are required to be managed manually to perform multiple asynchronous requests, and poor resource management
+1. Poor Readability and les expressive 
+2. Requires Lots of boilerplate codes eg: Byte arrays, stream readers
+3. No Built in support of parsing JSON response
+4. Background threads are required to be managed manually to perform multiple asynchronous requests, and poor resource management
 
 Above mentoned cons are improved in *Volly* and *Retrofit*.
 
 ##### Con of Volly
 Though Volly has solved the issues of *HTTPUrlConnection* but it has some con's of it's own compared to *Retrofit* library
-    1. Limited RET specific features
-    2. Poor Authentication features
-    3. has a small support community
+1. Limited RET specific features
+2. Poor Authentication features
+3. has a small support community
 
 ##### Retrofit
 The *Retrofit* library solves all of the problems that comes with *HTTPUrlConnection* and *Volly*. 
-    1. It has large active community which makes troubleshooting easier
-    2. The codes are more expressive and abstract
-    3. It manages resources efficiently such as
-        a. Background threads
-        b. Async calls & queues
-        c. Automatic **JSON** parsing with **GSON** library.
-        d. Automatic error handling callbacks
-        e. Built-in User Authentication support
+1. It has large active community which makes troubleshooting easier
+2. The codes are more expressive and abstract
+3. It manages resources efficiently such as
+    a. Background threads
+    b. Async calls & queues
+    c. Automatic **JSON** parsing with **GSON** library.
+    d. Automatic error handling callbacks
+    e. Built-in User Authentication support
 
 ### Understanding RESTful Web Services
 A web service is RESTful when it provides *stateless operations* to manage data using different *HTTP methods* and *structured URLs*.
