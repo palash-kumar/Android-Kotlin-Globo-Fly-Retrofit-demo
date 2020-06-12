@@ -27,6 +27,7 @@ Add dependencies:
     * Add Card view
 
 Now *right click* on the *app* goto *Module Settings* then go to *Dependencies*
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 ![Dependency window](https://github.com/palash-kumar/Msg-Share-App/tree/master/md-images/adding-dependencies-1.png "Dependency window")
 
 click on **+** to add new dependency to the project and add the following dependencies:
